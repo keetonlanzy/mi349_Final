@@ -1,0 +1,129 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#index {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 50px;
+    background-color: rgb(0, 85, 0);
+    text-shadow: 0 2px 2px rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 25px;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+}
+
+.button {
+    transition-duration: 0.5s;
+    width: 32%;
+    height: 100%;
+    border-radius: 10%;
+    border: 0px solid rgb(0, 0, 0);
+    box-shadow: 0 15px 40px rgb(37, 37, 37);
+    font-size: 50px;
+}
+.button:hover {
+    box-shadow: 0 7px 15px rgb(37, 37, 37);
+    transform: scale(.98);
+    transition-duration: 0.5s;
+    font-size: 60px;
+}
+
+#button1 {
+    background: url("pic1.jpg");
+    background-size: cover;
+    text-shadow: 0 2px 2px rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+#button2 {
+    background: center  url("ball.jpg");
+    background-size: cover;
+    text-shadow: 0 2px 2px rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+#button3 {
+    background: center  url("coach.jpg");
+    background-size: cover;
+    text-shadow: 0 2px 2px rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.open {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    background-color: rgb(15, 15, 15);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-bottom: 10px;
+    border-radius: 25px;
+    border-top-left-radius: 0%;
+    border-top-right-radius: 0%;
+}
+
+.signform {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 30px;
+}
+
+input {
+    height: 30px;
+    width: 200px;
+    font-size: 20px;
+}
+
+#signup {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(0, 85, 0);
+    text-shadow: 0 2px 2px rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 25px;
+    margin-bottom: 30px;
+}
+
+.submit {
+    height: 50px;
+    width: 30%;
+    background-color: rgb(0, 85, 0);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+#home {
+    position: fixed;
+    left: 50px;
+    top: 50px;
+}
+
+#homebutton {
+    height: 75px;
+    width: 75px;
+    background-color: white;
+    color: rgb(0, 85, 0);
+    border: 0;
+    border-radius: 10%;
+    font-size: 20px;
+}
+#homebutton:hover {
+    transform: scale(.98);
+}
